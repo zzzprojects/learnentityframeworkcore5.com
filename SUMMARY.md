@@ -1,0 +1,20 @@
+# Table of contents
+
+* [Introduction of Entity Framework Core](README.md)
+* [What's New in EF Core 5](whats-new-in-ef-core-5/README.md)
+  * [Simple Logging](whats-new-in-ef-core-5/simple-logging.md)
+  * [Filtered Included](whats-new-in-ef-core-5/filtered-included.md)
+  * [Backing Fields](whats-new-in-ef-core-5/backing-fields.md)
+  * [Keyless Entity Types](whats-new-in-ef-core-5/keyless-entity-types.md)
+  * [Configure Precision and Scale](whats-new-in-ef-core-5/configure-precision-and-scale.md)
+  * [Translation of Contains on byte arrays](whats-new-in-ef-core-5/translation-of-contains-on-byte-arrays.md)
+* [Connection Strings: Entity Framework Core](connection-strings-entity-framework-core.md)
+* [Entity Framework Core Model](entity-framework-core-model.md)
+* [DbContext](dbcontext.md)
+* [DbSet](dbset.md)
+* [Relationship in EF-Core](relationship-in-ef-core.md)
+* [Lazy Loading in EF Core](lazy-loading-in-ef-core.md)
+* [Migrations in EF-Core](migrations-in-ef-core.md)
+* [Handling Concurrency in EF-Core](handling-concurrency-in-ef-core.md)
+* [Raw SQL Queries in EF-Core](raw-sql-queries-in-ef-core.md)
+
