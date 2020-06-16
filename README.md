@@ -1,6 +1,6 @@
 # Introduction of Entity Framework Core
 
-Entity framework is Object Relational Mapper developed by Microsoft to simplify the working of .NET developers. Entity Framework Core is a lightweight, extensible, and open-source software like all the previous versions of the Entity Framework. It is a cross-platform software making it agile to be functional on different operating systems like Windows, Mac OS, and Linux OS.
+Entity Framework is Object Relational Mapper developed by Microsoft to simplify the working of .NET developers. Entity Framework Core is a lightweight, extensible, and open-source software like all the previous versions of the Entity Framework. It is a cross-platform software making it agile to be functional on different operating systems like Windows, Mac OS, and Linux OS.
 
 * Entity Framework Core performs create, read, update, and delete operation automatically without the need of writing all the SQL queries manually every-time.
 * Entity Framework Core works on the principle of ORM which allows it to drop the need for writing all the access code that the developers usually had to spend so much time writing.
@@ -8,7 +8,7 @@ Entity framework is Object Relational Mapper developed by Microsoft to simplify 
 
 ## Entity Framework Core Approaches
 
-Currently, the Entity framework Core supports two development approaches, Code First approach, and Database-First approach, yet there is very little support available for the database first approach.
+Currently, the Entity Framework Core supports two development approaches, Code First approach, and Database-First approach, yet there is very little support available for the database first approach.
 
 * But for the code first approach, Entity Framework Core has proven to be effectively useful.
 * With code first approach the Entity framework Core first creates the classes for the given data and then it uses the default conventions which can be changed by users' need, it uses these conventions to create relevant database and database tables.
