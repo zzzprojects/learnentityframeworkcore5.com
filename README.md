@@ -1,1 +1,0 @@
-# learnentityframeworkcore5.com
