@@ -8,6 +8,8 @@
   * [Keyless Entity Types](whats-new-in-ef-core-5/keyless-entity-types.md)
   * [Configure Precision and Scale](whats-new-in-ef-core-5/configure-precision-and-scale.md)
   * [Translation of Contains on byte arrays](whats-new-in-ef-core-5/translation-of-contains-on-byte-arrays.md)
+  * [Many-to-many Relationship](whats-new-in-ef-core-5/many-to-many-relationship.md)
+  * [Table-per-type \(TPT\) mapping](whats-new-in-ef-core-5/table-per-type-tpt-mapping.md)
 * [Connection Strings: Entity Framework Core](connection-strings-entity-framework-core.md)
 * [Entity Framework Core Model](entity-framework-core-model.md)
 * [DbContext](dbcontext.md)
