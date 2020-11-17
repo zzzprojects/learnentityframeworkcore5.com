@@ -1,10 +1,10 @@
 # Introduction of Entity Framework Core
 
-Entity framework is Object Relational Mapper developed by Microsoft to simplify the working of .NET developers. Entity framework Core is a lightweight, extensible and open source software like all the previous versions of the Entity Framework. It is a cross-platform software making it agile to be functional on different operating systems like Windows, Mac OS, and Linux OS.
+Entity framework is Object Relational Mapper developed by Microsoft to simplify the working of .NET developers. Entity Framework Core is a lightweight, extensible, and open-source software like all the previous versions of the Entity Framework. It is a cross-platform software making it agile to be functional on different operating systems like Windows, Mac OS, and Linux OS.
 
 * Entity Framework Core performs create, read, update and delete operation automatically without the need of writing all the SQL queries manually every-time.
 * Entity Framework Core works on the principle of ORM which allows it to drop the need for writing all the access code that the developers usually had to spend so much time writing.
-* This way all the developers can focus on their ongoing project effectively and efficiently without worrying about writing all the .NET and SQL queries. 
+* This way all the developers can focus on their ongoing projects effectively and efficiently without worrying about writing all the .NET and SQL queries. 
 
 ## Entity Framework Core Approaches
 
@@ -13,7 +13,7 @@ Currently, the Entity framework Core supports two development approaches, Code F
 * But for the code first approach, Entity Framework Core has proven to be effectively useful.
 * With code first approach the Entity framework Core first creates the classes for the given data and then it uses the default conventions which can be changed by users' need, it uses these conventions to create relevant database and database tables.
 * For the database first approach, EF Core creates the required classes by using the available database or database tables, it creates these classes using the EF Core commands. 
-* But, the drawback of the database first approach is that this method can be applied to only limited numbers of classes as the EF Core does not support visual designer or wizard.
+* But, the drawback of the database first approach is that this method can be applied to only a limited number of classes as the EF Core does not support visual designer or wizard.
 
 ## Features
 
@@ -37,7 +37,7 @@ If you are familiar with Entity Framework 6, the EF Core consists of all the fea
 * DbContext pooling
 * Better patterns for handling disconnected entity graphs
 
-Besides these features, Entity Framework Core has been recently updated to have the support for the following features as well.
+Besides these features, Entity Framework Core has been recently updated to have support for the following features as well.
 
 ## LINQ Overhaul
 
@@ -56,14 +56,14 @@ This allows the .NET developers to have access to features like global distribut
 
 Lazy loading allows the EF Core to take the required data without writing extra queries for the same. 
 
-* To apply this, it uses the proxies but since proxy logic isn’t the core feature of the EF Core, it keeps the data in its own package of the project.
+* To apply this, it uses the proxies but since proxy logic isn’t the core feature of the EF Core, it keeps the data in its package of the project.
 * With lazy loading enabled on the context, any virtual-navigation property is overridden under the covers by the proxy at run time, the developer has to manually change the declaration to virtual.
 
 ## Reverse Engineering of Database Views
 
 Those query type which represents data are readable from the database, but they cannot be changed or updated, these queries have been renamed to key-less entity types. 
 
-EF Core now automatically creates key-less entity types when reverse engineering of database views.
+EF Core now automatically creates key-less entity types when reverse engineering database views.
 
 Entity Framework Core is continuously getting new and better firmware updates which are adding more useful features for developers, some of the upcoming features for the Future are:
 
@@ -72,21 +72,21 @@ Entity Framework Core is continuously getting new and better firmware updates wh
 
 ## Example of The Entity Framework Core
 
-In a typical situation to read, write, update and delete from the database table, the developers must write different code to generate the SQL operations. 
+In a typical situation to read, write, update, and delete from the database table, the developers must write different code to generate the SQL operations. 
 
-When the data is read from the database, in order to map the data to the relevant classes, the developers must generate another custom code to map the data to their respective classes.
+When the data is read from the database, to map the data to the relevant classes, the developers must generate another custom code to map the data to their respective classes.
 
-All these actions must be performed for each individual project making it complicated and time-consuming for the developers. 
+All these actions must be performed for each project making it complicated and time-consuming for the developers. 
 
 With the help of an Object Relation Mapper like the EF Core, all these tasks can be done automatically making it simple and time saver for all the .NET Developers.
 
 EF Core sits between application code and database and it eliminates the need for the custom data access code that usually had to be written when proper ORM solutions were absent.
 
-**Example:** In case we have to develop an application to manage the employees in a company, we will have different classes like employees, departments, positions, etc. These classes will be called as domain classes.
+**Example:** In case we have to develop an application to manage the employees in a company, we will have different classes like employees, departments, positions, etc. These classes will be called domain classes.
 
 To arrange all these classes in a systematic and structured order, any developer would have to invest a lot of time and effort to create suitable codes for the following situation. 
 
-In this case, an ORM like the EF Core comes really handy as it does all the work automatically, resulting in saving lots of resources.
+In this case, an ORM like the EF Core comes handy as it does all the work automatically, resulting in saving lots of resources.
 
 ## Conclusion
 
@@ -94,6 +94,6 @@ Entity Framework Core is very useful yet agile software which sits between diffe
 
 It simplifies the work of the developers by developing the data on its own, which allows the user to do their work more efficiently and effectively. 
 
-Since its a cross-platform software, any .NET developer can have the benefits of the Entity Framework Core.
+Since it's a cross-platform software, any .NET developer can have the benefits of the Entity Framework Core.
 
 With the on-going development happening to the Entity Framework Core, developers can expect useful and amazing features making their way to future firmware releases.
