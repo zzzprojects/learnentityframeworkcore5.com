@@ -11,6 +11,7 @@
   * [Many-to-many Relationship](whats-new-in-ef-core-5/many-to-many-relationship.md)
   * [Table-per-type \(TPT\) mapping](whats-new-in-ef-core-5/table-per-type-tpt-mapping.md)
   * [Required one-to-one Dependents](whats-new-in-ef-core-5/required-one-to-one-dependents.md)
+  * [Support for Fields using Lambda](whats-new-in-ef-core-5/support-for-fields-using-lambda.md)
 * [Connection Strings: Entity Framework Core](connection-strings-entity-framework-core.md)
 * [Entity Framework Core Model](entity-framework-core-model.md)
 * [DbContext](dbcontext.md)
