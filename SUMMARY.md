@@ -13,6 +13,7 @@
   * [Required one-to-one Dependents](whats-new-in-ef-core-5/required-one-to-one-dependents.md)
   * [Support for Fields using Lambda](whats-new-in-ef-core-5/support-for-fields-using-lambda.md)
   * [Drop Column from SQLite Database](whats-new-in-ef-core-5/drop-column-from-sqlite-database.md)
+  * [Index Attribute](whats-new-in-ef-core-5/index-attribute.md)
 * [Connection Strings: Entity Framework Core](connection-strings-entity-framework-core.md)
 * [Entity Framework Core Model](entity-framework-core-model.md)
 * [DbContext](dbcontext.md)
