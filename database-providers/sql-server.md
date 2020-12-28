@@ -9,7 +9,7 @@ Microsoft SQL Server is a relational database management system \(RDBMS\) that s
 
 ### Install Entity Framework Core
 
-Let's create a new application using the **Console App \(.NET Core\)** template and install [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/). [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/) library is available as a nuget package and you can install it using **Nuget Package Manager**.
+Let's create a new application using the **Console App \(.NET Core\)** template and install [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/). [I](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/)t is available as a nuget package and you can install it using **Nuget Package Manager**.
 
 In the **Package Manager Console** window, enter the following command.
 
@@ -136,8 +136,8 @@ using (var context = new BookStore())
         }
     };
 
-    //IncludeGraph allows you to INSERT/UPDATE/MERGE entities by including the child entities graph.
-    context.BulkInsert(authors, options => options.IncludeGraph = true );
+    context.Authors.AddRange(authors);
+    context.SaveChanges();
 }
 
 using (var context = new BookStore())
