@@ -26,4 +26,5 @@
 * [Database Providers](database-providers/README.md)
   * [SQL Server](database-providers/sql-server.md)
   * [SQLite](database-providers/sqlite.md)
+  * [InMemory](database-providers/inmemory.md)
 

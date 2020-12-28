@@ -1,11 +1,13 @@
-# SQL Server
+# InMemory
 
-## SQL Server Provider
+## InMemory Provider
 
-Microsoft SQL Server is a relational database management system \(RDBMS\) that supports a wide variety of transaction processing, business intelligence, and analytic applications in corporate IT environments.
+InMemory is designed to be a general-purpose database for testing and is not designed to mimic a relational database.
 
-* It is the default database provider which is available when you install [Entity Framework Extensions](https://entityframework-extensions.net/download)
-* It allows Entity Framework Core to be used with Microsoft SQL Server \(including SQL Azure\).
+* InMemory will allow you to save data that would violate referential integrity constraints in a relational database.
+* If you use DefaultValueSql\(string\) for a property in your model, this is a relational database API and will not affect when running against InMemory.
+* Concurrency via Timestamp/row version \(\[Timestamp\] or IsRowVersion\) is not supported.
+* No `DbUpdateConcurrencyException` will be thrown if an update is done using an old concurrency token.
 
 ### Install Entity Framework Core
 
@@ -27,10 +29,10 @@ For example, EF Core will need to know what database or datastore you plan on wo
 
 ### Register EF Core Provider
 
-For SQL Server LocalDB, which is installed with Visual Studio, we need to install [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer) and will get all the packages required for EF Core.
+For InMemory, we need to install [Microsoft.EntityFrameworkCore.InMemory](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.InMemory) and will get all the packages required for EF Core.
 
-```bash
-PM> Install-Package Microsoft.EntityFrameworkCore.SqlServer
+```csharp
+PM> Install-Package Microsoft.EntityFrameworkCore.InMemory
 ```
 
 Now, you are ready to start your application.
@@ -79,7 +81,7 @@ public class BookStore : DbContext
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer(@"Data Source=(localdb)\ProjectsV13;Initial Catalog=BookStoreDb;");
+        optionsBuilder.UseSqlite(@"Data Source=D:\BookStoreContext.db;");
     }
         
     public DbSet<Author> Authors { get; set; }
@@ -90,7 +92,7 @@ public class BookStore : DbContext
 In EF Core, the `DbContext` has a virtual method called `OnConfiguring` which will get called internally by EF Core.
 
 * It will pass in an `optionsBuilder` instance which can be used to configure options for the `DbContext`.
-* The `optionsBuilder` has `UseSqlServer` method which expects a connection string as a parameter.
+* The `optionsBuilder` has `UseInMemoryDatabase` method which expects a connection string as a parameter.
 
 Now, we are done with the required classes and database creation, let's add some authors and book records to the database and then retrieve them.
 
@@ -135,9 +137,9 @@ using (var context = new BookStore())
             }
         }
     };
-
-    //IncludeGraph allows you to INSERT/UPDATE/MERGE entities by including the child entities graph.
-    context.BulkInsert(authors, options => options.IncludeGraph = true );
+    
+    context.Authors.AddRange(authors);
+    context.SaveChanges();
 }
 
 using (var context = new BookStore())
@@ -159,6 +161,4 @@ using (var context = new BookStore())
 ```
 
 If you run the application, you will see that authors and books are successfully inserted into the database.
-
-
 
