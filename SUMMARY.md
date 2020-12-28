@@ -28,4 +28,5 @@
   * [SQLite](database-providers/sqlite.md)
   * [InMemory](database-providers/inmemory.md)
   * [Cosmos](database-providers/cosmos.md)
+  * [PostgreSQL](database-providers/postgresql.md)
 
