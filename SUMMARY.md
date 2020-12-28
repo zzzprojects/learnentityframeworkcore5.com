@@ -25,4 +25,5 @@
 * [Raw SQL Queries in EF-Core](raw-sql-queries-in-ef-core.md)
 * [Database Providers](database-providers/README.md)
   * [SQL Server](database-providers/sql-server.md)
+  * [SQLite](database-providers/sqlite.md)
 

@@ -1,11 +1,11 @@
-# SQL Server
+# SQLite
 
-## SQL Server Provider
+## SQLite Provider
 
-Microsoft SQL Server is a relational database management system \(RDBMS\) that supports a wide variety of transaction processing, business intelligence, and analytic applications in corporate IT environments.
+SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.
 
-* It is the default database provider which is available when you install [Entity Framework Extensions](https://entityframework-extensions.net/download)
-* It allows Entity Framework Core to be used with Microsoft SQL Server \(including SQL Azure\).
+* It is the most widely deployed SQL database engine and the source code for SQLite is in the public domain.
+* It is a database, which does not need to be configured in your system like other databases.
 
 ### Install Entity Framework Core
 
@@ -27,10 +27,10 @@ For example, EF Core will need to know what database or datastore you plan on wo
 
 ### Register EF Core Provider
 
-For SQL Server LocalDB, which is installed with Visual Studio, we need to install [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer) and will get all the packages required for EF Core.
+For SQLite, we need to install [Microsoft.EntityFrameworkCore.Sqlite](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Sqlite) and will get all the packages required for EF Core.
 
 ```bash
-PM> Install-Package Microsoft.EntityFrameworkCore.SqlServer
+PM> Install-Package Microsoft.EntityFrameworkCore.Sqlite
 ```
 
 Now, you are ready to start your application.
@@ -79,7 +79,7 @@ public class BookStore : DbContext
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer(@"Data Source=(localdb)\ProjectsV13;Initial Catalog=BookStoreDb;");
+        optionsBuilder.UseSqlite(@"Data Source=D:\BookStoreContext.db;");
     }
         
     public DbSet<Author> Authors { get; set; }
@@ -90,7 +90,7 @@ public class BookStore : DbContext
 In EF Core, the `DbContext` has a virtual method called `OnConfiguring` which will get called internally by EF Core.
 
 * It will pass in an `optionsBuilder` instance which can be used to configure options for the `DbContext`.
-* The `optionsBuilder` has `UseSqlServer` method which expects a connection string as a parameter.
+* The `optionsBuilder` has  `UseSqlite`  method which expects a connection string as a parameter.
 
 Now, we are done with the required classes and database creation, let's add some authors and book records to the database and then retrieve them.
 
@@ -135,7 +135,7 @@ using (var context = new BookStore())
             }
         }
     };
-
+    
     context.Authors.AddRange(authors);
     context.SaveChanges();
 }
@@ -159,6 +159,4 @@ using (var context = new BookStore())
 ```
 
 If you run the application, you will see that authors and books are successfully inserted into the database.
-
-
 
