@@ -32,4 +32,5 @@
 * [Project Types](project-types/README.md)
   * [Console](project-types/console.md)
   * [MVC](project-types/mvc.md)
+  * [WinForm](project-types/winform.md)
 
