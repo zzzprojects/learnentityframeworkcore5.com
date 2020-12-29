@@ -7,7 +7,7 @@ A **Console application** is a program designed to be used via a text-only compu
 
 ### Create a Console App
 
-The project type comes with all the template files you will need before adding anything. Let's open Visual Studio 2019,  if you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+To start, we will create a Console application project. The project type comes with all the template files you will need before adding anything. Let's open Visual Studio 2019, if you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 
 ![](../.gitbook/assets/image%20%289%29.png)
 
@@ -19,7 +19,7 @@ On the **Create a new project** window, enter or type _console_ in the search bo
 
 ![](../.gitbook/assets/image%20%288%29.png)
 
- In the **Configure your new project** window, type or enter _**EFCore5InConsoleApp**_ in the **Project name** box and click on the **Create** button. 
+In the **Configure your new project** window, type or enter _**EFCore5InConsoleApp**_ in the **Project name** box and click on the **Create** button. 
 
 ![](../.gitbook/assets/image%20%2810%29.png)
 
@@ -27,7 +27,7 @@ Visual Studio opens your new project and includes the default "Hello World" code
 
 ### Install Entity Framework Core
 
-To use Entity Framework Core we need to install [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/) library.  [I](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/)t is available as a nuget package and you can install it using **Nuget Package Manager**.
+To use Entity Framework Core we need to install [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/) library. [I](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/)t is available as a nuget package and you can install it using **Nuget Package Manager**.
 
 In the **Package Manager Console** window, enter the following command.
 
