@@ -30,5 +30,5 @@
   * [Cosmos](database-providers/cosmos.md)
   * [PostgreSQL](database-providers/postgresql.md)
 * [Project Types](project-types/README.md)
-  * [Console App](project-types/console-app.md)
+  * [Console Application](project-types/console-application.md)
 
