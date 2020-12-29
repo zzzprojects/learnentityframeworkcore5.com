@@ -31,4 +31,5 @@
   * [PostgreSQL](database-providers/postgresql.md)
 * [Project Types](project-types/README.md)
   * [Console](project-types/console.md)
+  * [MVC](project-types/mvc.md)
 
