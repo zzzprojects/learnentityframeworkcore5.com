@@ -29,5 +29,6 @@
   * [InMemory](database-providers/inmemory.md)
   * [Cosmos](database-providers/cosmos.md)
   * [PostgreSQL](database-providers/postgresql.md)
-* [Project Types](project-types.md)
+* [Project Types](project-types/README.md)
+  * [Console App](project-types/console-app.md)
 
