@@ -27,7 +27,7 @@ Visual Studio opens your new project and includes the default "Hello World" code
 
 ### Install Entity Framework Core
 
-Let's create a new application using the **Console App \(.NET Core\)** template and install [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/). [I](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/)t is available as a nuget package and you can install it using **Nuget Package Manager**.
+To use Entity Framework Core we need to install [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/) library.  [I](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/)t is available as a nuget package and you can install it using **Nuget Package Manager**.
 
 In the **Package Manager Console** window, enter the following command.
 
