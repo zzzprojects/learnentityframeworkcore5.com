@@ -1,4 +1,4 @@
-# Console Application
+# Console
 
 A **Console application** is a program designed to be used via a text-only computer interface, such as a text terminal, the command line interface, etc.
 
