@@ -9,15 +9,15 @@ A **Windows Forms application** is an event-driven **application** supported by 
 
 The project type comes with all the template files you will need before adding anything. Let's open Visual Studio 2019,  if you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 
-![](../.gitbook/assets/image%20%2836%29.png)
+![](../.gitbook/assets/image%20%2844%29.png)
 
 On the start window, choose **Create a new project**.
 
-![](../.gitbook/assets/image%20%2833%29.png)
+![](../.gitbook/assets/image%20%2841%29.png)
 
 On the **Create a new project** window, enter or type _windows forms_ in the search box. Next, choose **C\#** from the Language list, and then choose **Windows** from the Platform list. Select the **Windows Forms App \(.NET\)** template, and then choose **Next**.
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../.gitbook/assets/image%20%2845%29.png)
 
 In the **Configure your new project** window, type or enter _**EFCore5InWinFormApp**_ in the **Project name** box and click on the **Create** button, and you will see Visual Studio opens your new project.
 
@@ -82,7 +82,7 @@ namespace EFCore5InWinFormApp
 
 We need to add **DataGridView** to display the data from the database, so let's select the **DataGridView** from the Toolbox and drag it to the Form1 as shown below. 
 
-![](../.gitbook/assets/image%20%2845%29.png)
+![](../.gitbook/assets/image%20%2855%29.png)
 
 Now in the `Form1_Load` method, we will add some authors' data to the database first, and then we will retrieve the data and display it on the **DataGridView** as shown below.
 
@@ -112,5 +112,5 @@ private void Form1_Load(object sender, EventArgs e)
 
 If you run the application, you will see that authors are successfully inserted into the database and display on the **DataGridView**.
 
-![](../.gitbook/assets/image%20%2844%29.png)
+![](../.gitbook/assets/image%20%2854%29.png)
 
