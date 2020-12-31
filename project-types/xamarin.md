@@ -9,15 +9,15 @@
 
 To start, we will create a Xamarin project. The project type comes with all template files to create Xamarin application before adding anything. Let's open Visual Studio 2019,  if you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2835%29.png)
 
 On the start window, choose **Create a new project**.
 
-![](../.gitbook/assets/image%20%2846%29.png)
+![](../.gitbook/assets/image%20%2847%29.png)
 
 On the **Create a new project** window, enter or type _xamarin.forms_ in the search box. Next, choose **C\#** from the Language list. Select the  **Mobile App \(Xamarin.Forms\)** template, and then choose **Next**.
 
-![](../.gitbook/assets/image%20%2860%29.png)
+![](../.gitbook/assets/image%20%2862%29.png)
 
 In the **Configure your new project** window, type or enter _**EFCore5InXamarinApp**_ in the **Project name** box and click on the **Create** button. 
 
@@ -25,7 +25,7 @@ In the **Configure your new project** window, type or enter _**EFCore5InXamarinA
 
 On the **New Mobile App** page, select the **Flyout** option, check the **Andriod** checkbox, and click on the **Create** button.
 
-![](../.gitbook/assets/image%20%2853%29.png)
+![](../.gitbook/assets/image%20%2854%29.png)
 
 Visual Studio opens your new project and includes the default code files in your project as shown in the **Solution Explorer**.
 
@@ -167,7 +167,7 @@ public IDataStore<Author> AuthDataStore => DependencyService.Get<IDataStore<Auth
 
 To create a new author view, right-click on the **Views** folder and select **Add &gt; New Item...** 
 
-![](../.gitbook/assets/image%20%2833%29.png)
+![](../.gitbook/assets/image%20%2834%29.png)
 
 Select the **Content Page** template, enter `NewAuthorPage.xaml` in the **Name** field and click on the **Add** button. Replace the following code in `NewAuthorPage.xaml` file.
 
@@ -296,7 +296,7 @@ namespace EFCore5InXamarinApp.Views
 
 To create an author detail view, right-click on the **Views** folder and select **Add &gt; New Item...** 
 
-![](../.gitbook/assets/image%20%2838%29.png)
+![](../.gitbook/assets/image%20%2839%29.png)
 
 Select the **Content Page** template, enter `AuthorDetailPage.xaml` in the **Name** field and click on the **Add** button. Replace the following code in `AuthorDetailPage.xaml` file.
 
@@ -412,7 +412,7 @@ namespace EFCore5InXamarinApp.Views
 
 To display all the authors from the database, right-click on the **Views** folder and select **Add &gt; New Item...** 
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/image%20%2843%29.png)
 
 Select the **Content Page** template, enter `AuthorsPage.xaml` in the **Name** field and click on the **Add** button. Replace the following code in `AuthorsPage.xaml` file.
 
@@ -682,17 +682,17 @@ Now we also need to add the options to the menu in `AppShell.xaml` file to navig
 
 Let's run your application and click on the Authors menu option.
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](../.gitbook/assets/image%20%2832%29.png)
 
 To add a new author tap the **ADD** button which is on the top right corner, it will navigate to the **New Author Page**.
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2830%29.png)
 
 Enter **Name** and **Address** and click on the **SAVE** button and you will see a new author is added. 
 
-![](../.gitbook/assets/image%20%2848%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 
 To view the detail, tap on an author and it will navigate to the detail page.
 
-![](../.gitbook/assets/image%20%2850%29.png)
+![](../.gitbook/assets/image%20%2851%29.png)
 

@@ -13,23 +13,23 @@
 
 To start, we will create an ASP.NET Core hosted Blazor App project. The project type comes with all template files to create a Blazor application before adding anything. Let's open Visual Studio 2019,  if you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 
-![](../.gitbook/assets/image%20%2852%29.png)
+![](../.gitbook/assets/image%20%2853%29.png)
 
 On the start window, choose **Create a new project**.
 
-![](../.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%2829%29.png)
 
 On the **Create a new project** window, enter or type _blazor_ in the search box. Next, choose **C\#** from the Language list. Select the **Blazor App** template, and then choose **Next**.
 
-![](../.gitbook/assets/image%20%2858%29.png)
+![](../.gitbook/assets/image%20%2860%29.png)
 
 In the **Configure your new project** window, type or enter _**EFCore5InBlazorApp**_ in the **Project name** box and click on the **Create** button.
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 
 Now select the **Blazor WebAssembly App** project template and select the **ASP.NET Core hosted** check box. Click on the **Create** button to create an ASP.NET Core-hosted application.
 
-![](../.gitbook/assets/image%20%2859%29.png)
+![](../.gitbook/assets/image%20%2861%29.png)
 
 Visual Studio opens your new project and includes the default code files in your project as shown in the **Solution Explorer**. You will see that 3 projects are created inside this solution.
 
@@ -244,11 +244,11 @@ namespace EFCore5InBlazorApp.Server
 
 To create a controller, right-click the **Controllers** folder in **EFCore5InBlazorApp.Server**, and select **Add &gt; Controller...** and it will open the **Add Scaffold** dialog box.
 
-![](../.gitbook/assets/image%20%2830%29.png)
+![](../.gitbook/assets/image%20%2831%29.png)
 
 Select **API Controller - Empty**, and then click the **Add** button.
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](../.gitbook/assets/image%20%2833%29.png)
 
 Select **API Controller - Empty**, enter **AuthorController** \(not AuthorsController\) as a **Controller name** and click the **Add** button. It will create an empty controller, let's add the following code which contains all the basic CRUD operations.
 
@@ -325,7 +325,7 @@ namespace EFCore5InBlazorApp.Server.Controllers
 
 To display all the authors, we need to create a view by right-clicking on the **Pages** folder in **EFCore5InBlazorApp.Client** project and select **Add &gt; Razor Component...**
 
-![](../.gitbook/assets/image%20%2849%29.png)
+![](../.gitbook/assets/image%20%2850%29.png)
 
 Select **Razor Component**, enter **GetAuthors.razor** as a **Name,** and click the **Add** button. It will create an empty view and then add the following code.
 
@@ -445,13 +445,13 @@ Now let's add one more page that will use to add a new author, call it **AddAuth
 
 Let's run your application and click on the Authors menu option.
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../.gitbook/assets/image%20%2838%29.png)
 
 To add a new author click on the **Create New** link and it will open the **Create Author** Page.
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
 Enter **Name, Gender,** and **Address** and click on the **Save** button and you will see a new author is added. 
 
-![](../.gitbook/assets/image%20%2857%29.png)
+![](../.gitbook/assets/image%20%2855%29.png)
 
