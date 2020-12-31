@@ -34,4 +34,5 @@
   * [MVC](project-types/mvc.md)
   * [WinForm](project-types/winform.md)
   * [Xamarin](project-types/xamarin.md)
+  * [Blazor](project-types/blazor.md)
 
