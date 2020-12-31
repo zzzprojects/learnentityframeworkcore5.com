@@ -33,4 +33,5 @@
   * [Console](project-types/console.md)
   * [MVC](project-types/mvc.md)
   * [WinForm](project-types/winform.md)
+  * [Xamarin](project-types/xamarin.md)
 
