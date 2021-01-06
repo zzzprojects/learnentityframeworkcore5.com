@@ -28,7 +28,7 @@ In the **Configure your new project** window, type or enter _**EFCore5InMvcApp**
 
 ![](../.gitbook/assets/image%20%2821%29.png)
 
-In the **Create a new ASP.NET Core web application** window, verify that **ASP.NET Core 5.0** appears in the top drop-down menu. Then, choose **ASP.NET Core Web App \(Model-View-Controller\)**, which includes example ASP.NET Core MVC Views and Controllers, and then click on the **Create** button.
+In the **Create a new ASP.NET Core web application** window, verify that **ASP.NET Core 5.0** appears in the top drop-down menu. Then, choose **ASP.NET Core Web App \(Model-View-Controller\)**\, including example ASP.NET Core MVC Views and Controllers, and then click on the **Create** button.
 
 ![](../.gitbook/assets/image%20%2820%29.png)
 
