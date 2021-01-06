@@ -4,13 +4,13 @@
 
 PostgreSQL is a general-purpose and object-relational database management system, the most advanced open-source database system.
 
-* PostgreSQL has been proven to be highly scalable both in the sheer quantity of data it can manage and in the number of concurrent users it can accommodate.
+* PostgreSQL has been proven to be highly scalable both in the sheer quantity of data it can manage and the number of concurrent users it can accommodate.
 * It allows you to add custom functions developed using different programming languages such as C/C++, Java, etc.
 * PostgreSQL requires very minimum maintained efforts because of its stability.
 
 ### Install Entity Framework Core
 
-Let's create a new application using the **Console App \(.NET Core\)** template and install [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/). [I](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/)t is available as a nuget package and you can install it using **Nuget Package Manager**.
+Let's create a new application using the **Console App \(.NET Core\)** template and install [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/). [I](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/)t is available as a nuget package, and you can install it using **Nuget Package Manager**.
 
 In the **Package Manager Console** window, enter the following command.
 
@@ -40,7 +40,7 @@ Now, you are ready to start your application.
 
 Model is a collection of classes to interact with the database.
 
-* A model stores data that is retrieved according to the commands from the Controller and displayed in the View.
+* A model stores data that is retrieved according to the Controller's commands and displayed in the View.
 * It can also be used to manipulate the data to implement the business logic.
 
 To create a data model for our application, we will start with the following two entities.
