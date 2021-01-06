@@ -7,7 +7,7 @@ A **Console application** is a program designed to be used via a text-only compu
 
 ### Create a Console App
 
-To start, we will create a Console application project. The project type comes with all the template files you will need before adding anything. Let's open Visual Studio 2019, if you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+To start, we will create a Console application project. The project type comes with all the template files you will need before adding anything. Let's open Visual Studio 2019. If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 
 ![](../.gitbook/assets/image%20%289%29.png)
 
