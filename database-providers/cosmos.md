@@ -13,7 +13,7 @@ It is strongly recommended to familiarize yourself with the [Azure Cosmos DB doc
 
 ### Install Entity Framework Core
 
-Let's create a new application using the **Console App \(.NET Core\)** template and install [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/). [I](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/)t is available as a nuget package and you can install it using **Nuget Package Manager**.
+Let's create a new application using the **Console App \(.NET Core\)** template and install [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/). [I](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/)t is available as a nuget package, and you can install it using **Nuget Package Manager**.
 
 In the **Package Manager Console** window, enter the following command.
 
@@ -43,7 +43,7 @@ Now, you are ready to start your application.
 
 Model is a collection of classes to interact with the database.
 
-* A model stores data that is retrieved according to the commands from the Controller and displayed in the View.
+* A model stores data that is retrieved according to the Controller's commands and displayed in the View.
 * It can also be used to manipulate the data to implement the business logic.
 
 To create a data model for our application, we will start with the following two entities.
@@ -76,7 +76,7 @@ The database context class provides the main functionality to coordinate Entity 
 * In your code, you specify which entities are included in the data model.
 * You can also customize certain Entity Framework behaviors.
 
-So, let's add a new `BookStore` class which will inherit the `DbContext` class.
+So, let's add a new `BookStore` class, which will inherit the `DbContext` class.
 
 ```csharp
 public class BookStore : DbContext
@@ -97,7 +97,7 @@ public class BookStore : DbContext
 In EF Core, the `DbContext` has a virtual method called `OnConfiguring` which will get called internally by EF Core.
 
 * It will pass in an `optionsBuilder` instance which can be used to configure options for the `DbContext`.
-* The `optionsBuilder` has `UseSqlServer` method which expects a connection string as a parameter.
+* The `optionsBuilder` has `UseSqlServer` method, which expects a connection string as a parameter.
 
 Now, we are done with the required classes and database creation, let's add some authors and book records to the database and then retrieve them.
 
