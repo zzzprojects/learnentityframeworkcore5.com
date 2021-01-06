@@ -4,7 +4,7 @@
 
 SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.
 
-* It is the most widely deployed SQL database engine and the source code for SQLite is in the public domain.
+* It is the most widely deployed SQL database engine, and the source code for SQLite is in the public domain.
 * It is a database, which does not need to be configured in your system like other databases.
 
 ### Install Entity Framework Core
@@ -39,7 +39,7 @@ Now, you are ready to start your application.
 
 Model is a collection of classes to interact with the database.
 
-* A model stores data that is retrieved according to the commands from the Controller and displayed in the View.
+* A model stores data that is retrieved according to the Controller's commands and displayed in the View.
 * It can also be used to manipulate the data to implement the business logic.
 
 To create a data model for our application, we will start with the following two entities.
