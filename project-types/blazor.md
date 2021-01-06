@@ -11,7 +11,7 @@
 
 ### Create Blazor App
 
-To start, we will create an ASP.NET Core hosted Blazor App project. The project type comes with all template files to create a Blazor application before adding anything. Let's open Visual Studio 2019,  if you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+To start, we will create an ASP.NET Core hosted Blazor App project. The project type comes with all template files to create a Blazor application before adding anything. Let's open Visual Studio 2019. If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 
 ![](../.gitbook/assets/image%20%2853%29.png)
 
@@ -39,7 +39,7 @@ Visual Studio opens your new project and includes the default code files in your
 
 ### Install Entity Framework Core
 
-To use Entity Framework Core we need to install [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/) library in the **EFCore5InBlazorApp.Server** project. [I](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/)t is available as a nuget package and you can install it using **Nuget Package Manager**.
+To use Entity Framework Core we need to install [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/) library in the **EFCore5InBlazorApp.Server** project. [It](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/) is available as a nuget package, and you can install it using **Nuget Package Manager**.
 
 In the **Package Manager Console** window, enter the following command.
 
