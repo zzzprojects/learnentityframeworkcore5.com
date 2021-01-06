@@ -9,7 +9,7 @@ Microsoft SQL Server is a relational database management system \(RDBMS\) that s
 
 ### Install Entity Framework Core
 
-Let's create a new application using the **Console App \(.NET Core\)** template and install [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/). [I](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/)t is available as a nuget package and you can install it using **Nuget Package Manager**.
+Let's create a new application using the **Console App \(.NET Core\)** template, and install [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/). [I](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/)t is available as a nuget package and you can install it using **Nuget Package Manager**.
 
 In the **Package Manager Console** window, enter the following command.
 
@@ -39,7 +39,7 @@ Now, you are ready to start your application.
 
 Model is a collection of classes to interact with the database.
 
-* A model stores data that is retrieved according to the commands from the Controller and displayed in the View.
+* A model stores data that is retrieved according to the Controller's commands and displayed in the View.
 * It can also be used to manipulate the data to implement the business logic.
 
 To create a data model for our application, we will start with the following two entities.
@@ -92,7 +92,7 @@ In EF Core, the `DbContext` has a virtual method called `OnConfiguring` which wi
 * It will pass in an `optionsBuilder` instance which can be used to configure options for the `DbContext`.
 * The `optionsBuilder` has `UseSqlServer` method which expects a connection string as a parameter.
 
-Now, we are done with the required classes and database creation, let's add some authors and book records to the database and then retrieve them.
+Now, we are done with the required classes and database creation. Let's add some authors and book records to the database and then retrieve them.
 
 ```csharp
 using (var context = new BookStore())
