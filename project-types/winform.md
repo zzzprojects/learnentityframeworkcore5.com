@@ -23,7 +23,7 @@ In the **Configure your new project** window, type or enter _**EFCore5InWinFormA
 
 ### Install Entity Framework Core
 
-To use Entity Framework Core we need to install [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/) library.  [I](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/)t is available as a nuget package and you can install it using **Nuget Package Manager**.
+To use Entity Framework Core we need to install [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/) library.  [I](https://www.nuget.org/packages/Z.EntityFramework.Extensions.EFCore/)t is available as a nuget package, and you can install it using **Nuget Package Manager**.
 
 In the **Package Manager Console** window, enter the following command.
 
