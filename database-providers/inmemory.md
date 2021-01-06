@@ -41,7 +41,7 @@ Now, you are ready to start your application.
 
 Model is a collection of classes to interact with the database.
 
-* A model stores data that is retrieved according to the commands from the Controller and displayed in the View.
+* A model stores data that is retrieved according to the Controller's commands and displayed in the View.
 * It can also be used to manipulate the data to implement the business logic.
 
 To create a data model for our application, we will start with the following two entities.
