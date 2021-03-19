@@ -1,3 +1,9 @@
+<a href="https://entityframework-extensions.net/">**Improve EF Core performance with EF Extensions**</a>
+
+<a href="https://entityframework-extensions.net/">
+<img src="https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg" width="600" />
+</a>
+
 # Xamarin
 
 **Xamarin**.**Forms** is an open-source mobile UI framework from Microsoft for building iOS, Android, & Windows **apps** with .NET from a single shared codebase.
