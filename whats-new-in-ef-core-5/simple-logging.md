@@ -1,3 +1,9 @@
+<a href="https://entityframework-extensions.net/">**Improve EF Core performance with EF Extensions**</a>
+
+<a href="https://entityframework-extensions.net/">
+<img src="https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg" width="600" />
+</a>
+
 # Simple Logging
 
 Simple Logging is the equivalent of `Database.Log` in EF6. It provides a simple way to get logs from EF Core without the need to configure any kind of external logging framework.
