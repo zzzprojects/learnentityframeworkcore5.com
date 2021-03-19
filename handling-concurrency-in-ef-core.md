@@ -1,6 +1,10 @@
+<a href="https://entityframework-extensions.net/">**Improve EF Core performance with EF Extensions**</a>
+
+<a href="https://entityframework-extensions.net/">
+<img src="https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg" width="600" />
+</a>
+
 # Handling Concurrency in EF-Core
-
-
 
 Concurrency means the conflicts happening on the data due to access to multiple users, trying to modify the same data at the same time.
 
