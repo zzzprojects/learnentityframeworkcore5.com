@@ -1,3 +1,9 @@
+<a href="https://entityframework-extensions.net/">**Improve EF Core performance with EF Extensions**</a>
+
+<a href="https://entityframework-extensions.net/">
+<img src="https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg" width="600" />
+</a>
+
 # Many-to-many Relationship
 
 Earlier in Entity Framework, the many-to-many relationship was classified as two one-to-many relationships. To make it work the developer must create a joining entity class.
