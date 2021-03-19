@@ -1,3 +1,9 @@
+<a href="https://entityframework-extensions.net/">**Improve EF Core performance with EF Extensions**</a>
+
+<a href="https://entityframework-extensions.net/">
+<img src="https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg" width="600" />
+</a>
+
 # Introduction of Entity Framework Core
 
 Entity framework is Object Relational Mapper developed by Microsoft to simplify the working of .NET developers. Entity Framework Core is a lightweight, extensible, and open-source software like all the previous versions of the Entity Framework. It is a cross-platform software making it agile to be functional on different operating systems like Windows, Mac OS, and Linux OS.
