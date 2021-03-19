@@ -1,3 +1,9 @@
+<a href="https://entityframework-extensions.net/">**Improve EF Core performance with EF Extensions**</a>
+
+<a href="https://entityframework-extensions.net/">
+<img src="https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg" width="600" />
+</a>
+
 # Support for Fields using Lambda
 
 EF Core 5 allows you to use the lambda methods in the ModelBuilder for fields as well as properties. Let's suppose you don't want to use properties for some reason and decide to use public fields.
