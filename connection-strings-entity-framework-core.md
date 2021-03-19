@@ -4,6 +4,8 @@
 <img src="https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg" alt="Entity Framework Extensions" style="border: 1px;" />
 </a>
 
+![test image size](https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg){:width="100%"}
+
 t4
 
 # Connection Strings: Entity Framework Core
