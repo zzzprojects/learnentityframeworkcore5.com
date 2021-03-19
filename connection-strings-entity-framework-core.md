@@ -4,7 +4,9 @@
 <img src="https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg" width="600" />
 </a>
 
-t5
+![test](https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg =192x102)
+
+t6
 
 # Connection Strings: Entity Framework Core
 
