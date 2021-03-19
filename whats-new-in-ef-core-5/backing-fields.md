@@ -1,3 +1,9 @@
+<a href="https://entityframework-extensions.net/">**Improve EF Core performance with EF Extensions**</a>
+
+<a href="https://entityframework-extensions.net/">
+<img src="https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg" width="600" />
+</a>
+
 # Backing Fields
 
 Backing fields allow EF to read and/or write to a field rather than a property. This can be useful when encapsulation in the class is being used to restrict the use of and/or enhance the semantics around access to the data by application code, but the value should be read from and/or written to the database without using those restrictions/enhancements.
