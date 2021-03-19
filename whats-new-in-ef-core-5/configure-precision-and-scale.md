@@ -1,3 +1,9 @@
+<a href="https://entityframework-extensions.net/">**Improve EF Core performance with EF Extensions**</a>
+
+<a href="https://entityframework-extensions.net/">
+<img src="https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg" width="600" />
+</a>
+
 # Configure Precision and Scale
 
 In EF Core 5.0, you can configure the precision and scale using Fluent API. It tells the database provider how much storage is needed for a given column. It only applies to data types where the provider allows the precision and scale to vary - usually just `decimal` and `DateTime`.
