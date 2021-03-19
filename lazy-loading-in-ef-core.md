@@ -1,3 +1,9 @@
+<a href="https://entityframework-extensions.net/">**Improve EF Core performance with EF Extensions**</a>
+
+<a href="https://entityframework-extensions.net/">
+<img src="https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg" width="600" />
+</a>
+
 # Lazy Loading in EF Core
 
 Lazy Loading was introduced in Entity Framework Core with EF Core 2.1 to allow better optimizations, performance, and working of the software.
