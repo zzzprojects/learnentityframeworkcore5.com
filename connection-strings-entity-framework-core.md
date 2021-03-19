@@ -1,3 +1,9 @@
+<a href="https://entityframework-extensions.net/">
+<kbd>
+<img src="https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg" alt="Entity Framework Extensions" />
+</kbd>
+</a>
+
 # Connection Strings: Entity Framework Core
 
 In Entity Framework Core, there could be multiple numbers of databases that needed to be connected or if any database provider needs to connect with the database.
