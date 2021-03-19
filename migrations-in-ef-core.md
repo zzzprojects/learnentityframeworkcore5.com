@@ -1,3 +1,9 @@
+<a href="https://entityframework-extensions.net/">**Improve EF Core performance with EF Extensions**</a>
+
+<a href="https://entityframework-extensions.net/">
+<img src="https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg" width="600" />
+</a>
+
 # Migrations in EF-Core
 
 In Entity Framework Core, when there is a change in the model, the database tables are also needed to be updated to keep everything in sync for the proper working of the application.
