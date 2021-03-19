@@ -1,3 +1,9 @@
+<a href="https://entityframework-extensions.net/">**Improve EF Core performance with EF Extensions**</a>
+
+<a href="https://entityframework-extensions.net/">
+<img src="https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg" width="600" />
+</a>
+
 # Drop Column from SQLite Database
 
 SQLite is relatively limited in its schema manipulation capabilities as compared to other databases. For example, dropping a column from an existing table requires that the entire table be dropped and re-created. 
