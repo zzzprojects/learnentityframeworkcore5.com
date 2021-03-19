@@ -1,5 +1,5 @@
 <a href="https://entityframework-extensions.net/">
-<img src="https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg" alt="Entity Framework Extensions" />
+<img src="https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg" alt="Entity Framework Extensions" style="border: 1px;" />
 </a>
 
 # Connection Strings: Entity Framework Core
