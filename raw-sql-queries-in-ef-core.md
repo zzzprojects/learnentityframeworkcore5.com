@@ -1,3 +1,9 @@
+<a href="https://entityframework-extensions.net/">**Improve EF Core performance with EF Extensions**</a>
+
+<a href="https://entityframework-extensions.net/">
+<img src="https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg" width="600" />
+</a>
+
 # Raw SQL Queries in EF-Core
 
 In Entity Framework Core, if your LINQ Query is not able to execute the application properly, then there is an option for embedding custom raw SQL queries into the database according to the requirement of the application.
