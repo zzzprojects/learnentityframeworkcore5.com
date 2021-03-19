@@ -1,3 +1,9 @@
+<a href="https://entityframework-extensions.net/">**Improve EF Core performance with EF Extensions**</a>
+
+<a href="https://entityframework-extensions.net/">
+<img src="https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg" width="600" />
+</a>
+
 # Blazor
 
 **Blazor** is a free and open-source web framework that enables developers to create web apps using C\# and HTML. Blazor is a framework for building interactive client-side web UI with [.NET](https://docs.microsoft.com/en-us/dotnet/standard/tour).
