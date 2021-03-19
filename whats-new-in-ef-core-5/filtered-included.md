@@ -1,3 +1,9 @@
+<a href="https://entityframework-extensions.net/">**Improve EF Core performance with EF Extensions**</a>
+
+<a href="https://entityframework-extensions.net/">
+<img src="https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg" width="600" />
+</a>
+
 # Filtered Included
 
 The Include method now supports filtering of the entities included. When applying Include to load related data, you can apply certain enumerable operations on the included collection navigation, which allows for filtering and sorting of the results.
