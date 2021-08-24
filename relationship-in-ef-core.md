@@ -1,7 +1,7 @@
 <a href="https://entityframework-extensions.net/">**Improve EF Core performance with EF Extensions**</a>
 
 <a href="https://entityframework-extensions.net/">
-<img src="https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg" width="600" />
+![](.gitbook/assets/entityframework-extensions-add.jpg)
 </a>
 
 # Relationship in EF-Core
