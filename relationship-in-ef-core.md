@@ -1,6 +1,6 @@
 <a href="https://entityframework-extensions.net/">**Improve EF Core performance with EF Extensions**</a>
 
-[<img src=".gitbook/assets/entityframework-extensions-add.jpg">](https://entityframework-extensions.net/)
+[![](.gitbook/assets/entityframework-extensions-add.jpg)](https://entityframework-extensions.net/)
 
 # Relationship in EF Core
 
