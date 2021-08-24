@@ -19,10 +19,10 @@ In this case, instead of re-entering all the details, the company could just rel
 
 In Entity Framework Core, there is various form of relationships such as:
 
-* One-to-One Relationship.
-* One-to-Many Relationship.
-* Many-to-Many Relationship.
-* OnDelete Method.
+* One-to-One Relationship
+* One-to-Many Relationship
+* Many-to-Many Relationship
+* OnDelete Method
 
 ## One-to-One Relationship
 
