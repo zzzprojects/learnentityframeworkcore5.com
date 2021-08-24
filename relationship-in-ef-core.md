@@ -2,7 +2,7 @@
 
 [<img src=".gitbook/assets/entityframework-extensions-add.jpg">](https://entityframework-extensions.net/)
 
-# Relationship in EF-Core
+# Relationship in EF Core
 
 In Entity Framework Core, relationship means how two or more entities related to each other in the database.
 
