@@ -6,33 +6,44 @@
 
 # Introduction of Entity Framework Core
 
-Entity Framework is Object Relational Mapper developed by Microsoft to simplify the working of .NET developers. Entity Framework Core is a lightweight, extensible, and open-source software like all the previous versions of the Entity Framework. It is a cross-platform software making it agile to be functional on different operating systems like Windows, Mac OS, and Linux OS.
+EF Core (Entity Framework Core) is an ORM (Object Relational Mapper) developed by Microsoft to simplify the database operations for .NET developers. Entity Framework Core is a lightweight, extensible, and open-source software like all the previous versions of the Entity Framework. It is a cross-platform software, making it easily to work on different operating systems like Windows, Mac OS, and Linux OS.
 
-* Entity Framework Core performs create, read, update, and delete operation automatically without the need of writing all the SQL queries manually every-time.
-* Entity Framework Core works on the principle of ORM which allows it to drop the need for writing all the access code that the developers usually had to spend so much time writing.
-* This way all the developers can focus on their ongoing project effectively and efficiently without worrying about writing all the .NET and SQL queries. 
+Some advantage of EF Core include:
+
+* Entity Framework Core execute create, read, update, and delete operation automatically without the need to write all the SQL queries manually every time.
+* Entity Framework Core works on the principle of ORM, which allows it to drop the need for writing all the access code that the developers usually had to spend so much time writing.
 
 ## Entity Framework Core Approaches
 
-Currently, the Entity Framework Core supports two development approaches, Code First approach, and Database-First approach, yet there is very little support available for the database first approach.
+EF Core supports two development approaches:
 
-* But for the code first approach, Entity Framework Core has proven to be effectively useful.
-* With code first approach the Entity framework Core first creates the classes for the given data and then it uses the default conventions which can be changed by users' need, it uses these conventions to create relevant database and database tables.
-* For the database first approach, EF Core creates the required classes by using the available database or database tables, it creates these classes using the EF Core commands. 
-* But, the drawback of the database first approach is that this method can be applied to only limited numbers of classes as the EF Core does not support visual designer or wizard.
+Code First
+Database First
+
+### Code First Approach
+
+The code-first approach allows you to create your model through [Data Annotations](https://www.learnentityframeworkcore.com/configuration/data-annotation-attributes) and [Fluent API](https://www.learnentityframeworkcore.com/configuration/fluent-api)
+
+It also allow you to specify some [Migrations](https://www.learnentityframeworkcore.com/migrations) and execute command like [Add-Migration](https://www.learnentityframeworkcore.com/migrations/add-migration)
+
+### Database First Approach
+
+For the database first approach, EF Core creates the required classes by using the available database or database tables, it creates these classes using the EF Core commands. 
+
+But, the drawback of the database first approach is that this method can be applied to only limited numbers of classes as the EF Core does not support visual designer or wizard.
 
 ## Features
 
 If you are familiar with Entity Framework 6, the EF Core consists of all the features from EF 6, Some of the basic features that are included in the Entity Framework Core are:
 
-* DbContext & DbSet
+* [DbContext](/dbcontext)
+* [DbSet](/dbset)
 * Data Model
 * Querying using Linq-to-Entities
-* Change Tracking
+* [Change Tracking](https://www.learnentityframeworkcore.com/dbcontext/change-tracker)
 * SaveChanges
-* Migrations
+* [Migrations](https://www.learnentityframeworkcore.com/migrations)
 * Easy relationship configuration
-* Batch INSERT, UPDATE and DELETE operations
 * In-memory provider for testing
 * Support for IoC \(Inversion of Control\)
 * Unique constraints
@@ -49,7 +60,7 @@ Besides these features, Entity Framework Core has been recently updated to have 
 
 LINQ allows developers to write an unlimited number of different .NET queries of their choices. It helps in having rich type information that offers IntelliSense and compile-time type checking, but the real challenge is to handle these combinations for LINQ providers.
 
-* The newer EF Core 3.0 allows LINQ providers to translate more numbers of queries into SQL, giving the user more efficient queries in SQL and letting in-efficient queries remain undetected. 
+* The newer EF Core 8 allows LINQ providers to translate more numbers of queries into SQL, giving the user more efficient queries in SQL and letting in-efficient queries remain undetected. 
 * It also allows developers to create a single SQL statement per LINQ query. Although it can have further improvements which will bring more performance upgrades in the future.
 
 ## Cosmos Database Support
